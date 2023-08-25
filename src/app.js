@@ -18,7 +18,7 @@ import Jimp from 'jimp';
     executablePath: isWin ? './src/drivers/chrome-win/chrome.exe' : './src/drivers/chrome-linux/chrome',
     devtools: true,
     ignoreHTTPSErrors: true,
-    headless: false,
+    headless: 'new',
     args: [
       `--disable-extensions-except=${pathToExtension}`,
       `--load-extension==${pathToExtension}`,  
@@ -27,6 +27,7 @@ import Jimp from 'jimp';
       '--disable-web-security',
       '--disable-features=IsolateOrigins,ProcessPerSiteUpToMainFrameThreshold',
       '--disable-site-isolation-trials',
+      '--incognito',
     ]
   });
 
