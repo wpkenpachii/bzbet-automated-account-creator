@@ -1,4 +1,4 @@
-# BZBET Automated Account Create
+# BZBET Automated Account Creation
 This is just a POC project for creating multiple accounts and create pix deposit invoices automated.
 
 
@@ -15,7 +15,7 @@ This is just a POC project for creating multiple accounts and create pix deposit
     - Download manually chrome driver for linux by acessing this [link](https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F1188415%2Fchrome-linux.zip?alt=media),
       extract it, propably it will contain a folder called chrome-linux,  paste this folder inside `src/drivers`
 - configure the fields mentioned below in [_Attention Topic_](#attention)
-
+- Run the code `npm run start`  
 
 # Demonstration
 ![demonstration](demonstration.gif)
